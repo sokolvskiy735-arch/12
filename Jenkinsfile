@@ -12,7 +12,7 @@ pipeline {
        stage('Checkout') {
            steps {
                // Получаем код из репозитория
-               git branch: 'main', url:'https://github.com/sokolvskiy735-arch/https://github.com/sokolvskiy735-arch/12.git'
+               git branch: 'main', url:'https://github.com/sokolvskiy735-arch/win.git'
            }
        }
  
